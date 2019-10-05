@@ -44,7 +44,7 @@ sudo bash -c 'cp src/assets/images/logo.png "${pkgdir}/usr/share/pixmaps/premid.
 sudo bash -c  'mkdir /usr/lib/premid'
 sudo bash -c 'echo "#!/bin/bash
 cd /usr/lib/premid/
-./PreMiD" > /usr/bin/premid'
+./premid" > /usr/bin/premid'
 sudo bash -c 'chmod +x /usr/bin/premid'
 sudo bash -c 'echo "[Desktop Entry]
 Name=PreMiD
