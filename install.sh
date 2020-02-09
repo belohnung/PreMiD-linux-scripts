@@ -37,7 +37,7 @@ npm install
 cd ..
 
 echo "Packaging Linux files..."
-npm run pkglinux
+npm run pkg
 
 echo "Adding PreMiD to /usr/bin and shortcut to Application launcher..."
 sudo bash -c 'cp src/assets/images/logo.png "${pkgdir}/usr/share/pixmaps/premid.png"'
